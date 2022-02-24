@@ -1,0 +1,74 @@
+/* This is how to add a comment */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Runic&family=Philosopher&display=swap');
+h1{
+   
+    font-family: 'Philosopher', sans-serif;
+}
+h1, h2, h3{
+    color:black;
+    font-size: 40px;
+}
+
+/* This is how to target an element within the HTML */
+/* font-family: 'Noto Sans Runic', sans-serif;*/
+body {
+    background-color: aquamarine;
+
+}
+
+/* .greetings {
+    background-color: green;
+}
+*/
+#navbar {
+    background-color: black;
+    height: 35px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.imagecenter {
+    display: flex;
+    justify-content: center;
+    }
+
+#navbar a {
+    color: aqua;
+    text-decoration: none;
+    font-family: 'Philosopher', sans-serif;
+}
+
+#navbar a:hover {
+    color: goldenrod;
+}
+
+.large {
+    font-size: 35px;
+}
+
+.center {
+    text-align: center;
+}
+
+/* #specialBlue {
+    color: blue;
+    font-size: 20px;
+} */
+
+/*
+string (tomato)
+hex(#ff6347)
+RGB values (255,99,71)
+*/
+.smallimage{
+    width: 46%;
+}
+
+p {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 100;
+}
